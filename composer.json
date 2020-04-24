@@ -1,21 +1,19 @@
 {
-    "name": "jordanmiguel/laravel-popular",
+    "name": "wanderreisen/laravel-popular",
     "type": "library",
     "description": "A Laravel package to track popularity of entries(by Models) in a website at a certain time.",
     "keywords": [
-        "JordanMiguel",
         "laravel-popular",
         "Laravel",
         "Popular",
         "Laravel Popular"
     ],
-    "homepage": "https://github.com/jordanmiguel/laravel-popular",
+    "homepage": "https://github.com/wanderreisen/laravel-popular",
     "license": "MIT",
     "authors": [
         {
-            "name": "Jordan Miguel",
-            "homepage": "https://github.com/JordanMiguel",
-            "role": "Developer"
+            "name": "Wanderreisen",
+            "homepage": "https://www.wanderreisen.de",
         }
     ],
     "require": {
@@ -28,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "JordanMiguel\\LaravelPopular\\": "src"
+            "Wanderreisen\\LaravelPopular\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "JordanMiguel\\LaravelPopular\\": "tests"
+            "Wanderreisen\\LaravelPopular\\": "tests"
         }
     },
     "scripts": {
@@ -44,7 +42,7 @@
     "extra": {
         "laravel": {
           "providers": [
-            "JordanMiguel\\LaravelPopular\\LaravelPopularServiceProvider"
+            "Wanderreisen\\LaravelPopular\\LaravelPopularServiceProvider"
           ]
         }
     },

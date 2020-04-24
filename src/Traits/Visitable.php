@@ -1,8 +1,8 @@
 <?php
 
-namespace JordanMiguel\LaravelPopular\Traits;
+namespace Wanderreisen\LaravelPopular\Traits;
 
-use JordanMiguel\LaravelPopular\Models\Visit;
+use Wanderreisen\LaravelPopular\Models\Visit;
 use Carbon\Carbon;
 
 trait Visitable
@@ -17,7 +17,7 @@ trait Visitable
         if(empty($ip)){
             $ip = request()->ip();
         }
-        
+
         return Visit::firstOrCreate([
             'ip' => $ip,
             'date' => Carbon::now()->toDateString(),

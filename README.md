@@ -1,6 +1,6 @@
 # Laravel Popular (Laravel Popularity)
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/jordanmiguel/laravel-popular.svg?style=flat-square)](https://packagist.org/packages/jordanmiguel/laravel-popular)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/wanderreisen/laravel-popular.svg?style=flat-square)](https://packagist.org/packages/wanderreisen/laravel-popular)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](license.md)
 
 With Laravel Popular Package you can Track your most popular Eloquent Models based on unique hits in a time range and then sort by popularity in a time frame.
@@ -9,7 +9,7 @@ With Laravel Popular Package you can Track your most popular Eloquent Models bas
 
 Use the visitable trait on the model you intend to track
 ``` php
-use \JordanMiguel\LaravelPopular\Traits\Visitable;
+use \Wanderreisen\LaravelPopular\Traits\Visitable;
 
 class Post extends Model
 {
@@ -46,10 +46,10 @@ Posts::popularAllTime()->get();
 Via Composer
 
 ``` bash
-$ composer require jordanmiguel/laravel-popular
+$ composer require wanderreisen/laravel-popular
 ```
 
-If you're on Laravel <= 5.4 add `'JordanMiguel\LaravelPopular\LaravelPopularServiceProvider::class',` in your `config/app.php` to the end of the `$providers` array
+If you're on Laravel <= 5.4 add `'Wanderreisen\LaravelPopular\LaravelPopularServiceProvider::class',` in your `config/app.php` to the end of the `$providers` array
 
 ``` php
 'providers' => array(
@@ -57,7 +57,7 @@ If you're on Laravel <= 5.4 add `'JordanMiguel\LaravelPopular\LaravelPopularServ
     'Illuminate\Foundation\Providers\ArtisanServiceProvider',
     'Illuminate\Auth\AuthServiceProvider',
     ...
-    'JordanMiguel\LaravelPopular\LaravelPopularServiceProvider::class',
+    'Wanderreisen\LaravelPopular\LaravelPopularServiceProvider::class',
 
 ),
 ```

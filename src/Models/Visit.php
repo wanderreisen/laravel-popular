@@ -1,6 +1,6 @@
 <?php
 
-namespace JordanMiguel\LaravelPopular\Models;
+namespace Wanderreisen\LaravelPopular\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

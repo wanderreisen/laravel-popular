@@ -1,6 +1,6 @@
 <?php
 
-namespace JordanMiguel\LaravelPopular;
+namespace Wanderreisen\LaravelPopular;
 
 use Illuminate\Support\ServiceProvider;
 
